@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cim {
+    color: #F0F5F0;
+     display: block;
+     text-align: center;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+    position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #293D29;
+}
+
+/* Style the topnav links */
+.topnav a {
+float: right;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #E1EAE1;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #E1EAE1;
+  padding: 10px;
+  
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.bejegyzes {
+    
+    border: #A4C1A4;
+    border-style:ridge;
+    padding: 1em;
+    margin: 2em;
+    background-color: #679867;
+    width: 90%;
+    height: 30%;
+    overflow: auto;
+}
+.bejegyzes img {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: 2em;
+
+}
+.bejegyzes p {
+text-align: left;
+
+}
+.bejegyzes a:link{
+    text-decoration: none;
+    color: #0E150E
+
+}
+.bejegyzes a:hover {
+    color:rgb(31, 22, 51);
+
+}
+.bejegyzes a:visited{
+    color: #333;
+}
